@@ -4,5 +4,5 @@ def reverse(s):
     str=i+str
   return str
 s=input().split()
-for i in range(2):
+for i in range(10):
   print(reverse(s[i]), end=" ")
